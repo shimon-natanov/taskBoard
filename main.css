@@ -2,9 +2,15 @@
     border : 1px orange solid
 } */
 
-#taskBoard {
+body {
+    width: 100vw;
+    height: 100vh;
     background-image: url('./images/tile.jpg');
 }
+
+/* #taskBoard {
+   
+} */
 
 #taskBoard #enterTask {
     width: 510px;
@@ -27,6 +33,7 @@
 #taskBoard #notes {
     display : flex ;
     flex-wrap: wrap;
+    
 }  
 
 input , button, label{
